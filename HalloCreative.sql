@@ -174,4 +174,3 @@ GO
 ALTER TABLE [HalloCreatives].[Payments]
 ADD CONSTRAINT [FK_OrdernumP] FOREIGN KEY ([Order Number]) REFERENCES [HalloCreatives].[Orders]([Order Number]);
 GO
-
